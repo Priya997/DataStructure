@@ -2,9 +2,9 @@
 
 # DYNAMIC PROGRAMMING
 
-- [ ] Fibonacci
+- [x] Fibonacci
 
-- [ ] P^q using dynamic
+- [x] P^q using dynamic
 
 - [ ] Coin exchange
 
