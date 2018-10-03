@@ -1,3 +1,7 @@
 # DataStructure
 
-hello am trying to kearn branching
+# DYNAMIC PROGRAMMING
+
+[] Fibonacci
+[] P^q using dynamic
+[] Coin exchange
