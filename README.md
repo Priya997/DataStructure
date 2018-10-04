@@ -11,3 +11,4 @@
 | P^q using DP | [:white_check_mark:]| [:white_check_mark:](Yo/Dp/PraiseQ.java) |
 | Ugly Number | [:white_check_mark:] | [:white_check_mark:](Yo/Dp/UglyNumb.java)  ||
 |nth Catalan|  |[:white_check_mark:](Yo/Dp/Catalan.java) | | 
+|c(n,k) using DP|
