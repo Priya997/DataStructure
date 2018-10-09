@@ -2,12 +2,30 @@ import java.util.Scanner;
 
 public class Power {
     public static int helper_power(int a,int b){
-        int c=1;
-        for (int i=0;i<b;i++)
+        int[] arr=new int[b+1];
+        if(arr[b]!=0)
         {
-            c=c*a;
+            return arr[b];
         }
-        return c;
+        if(b==0)
+        {
+            arr[0]=1;
+        }
+        else if(b==1)
+        {
+            arr[1]=a;
+        }
+        else{
+            if(b%2==0)
+            {
+                arr[b]=helper_power(a,b/2)*helper_power(a,b/2);
+            }
+            else{
+                arr[b]=a*helper_power(a,(b-1)/2)*helper_power(a,(b-1)/2);
+            }
+        }
+
+        return arr[b];
 
     }
     public static void main(String args[]){
